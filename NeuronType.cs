@@ -4,6 +4,6 @@
     {
         Input = 0,
         Normal  = 1,
-        Output = 3
+        Output = 2
     }
 }
