@@ -1,4 +1,4 @@
-﻿namespace Project1
+﻿namespace NeuralNetworks
 {
     public enum NeuronType
     {

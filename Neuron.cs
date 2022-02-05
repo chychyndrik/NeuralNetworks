@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 
-namespace Project1
+namespace NeuralNetworks
 {
     public class Neuron
     {
