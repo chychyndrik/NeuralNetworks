@@ -22,6 +22,7 @@ namespace NeuralNetworks
         }
         public double FeedForward(List<double> inputs)
         {
+            // TODO: Добавить проверкуу данных на корректность 
             var sum = 0.0;
 
             for (int i = 0; i < inputs.Count; i++)

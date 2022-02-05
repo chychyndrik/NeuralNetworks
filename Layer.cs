@@ -13,6 +13,6 @@ namespace NeuralNetworks
             
             Neurons = neurons;
         }
-
+            
     }
 }
