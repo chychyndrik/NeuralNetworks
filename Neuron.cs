@@ -5,7 +5,7 @@ namespace Project1
 {
     public class Neuron
     {/// <summary>
-    /// //////////
+    /// //////////////////////////
     /// </summary>
         public List<double> Weights { get; }
         public NeuronType NeuronType { get; }
