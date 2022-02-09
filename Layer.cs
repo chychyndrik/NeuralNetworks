@@ -13,6 +13,15 @@ namespace NeuralNetworks
             
             Neurons = neurons;
         }
-            
+        public List<double> GetSignals()
+        {
+            var result = new List<double>();
+
+            foreach (var neuron in Neurons)
+            {
+                result.Add(neuron.Output);
+            }
+            return result;
+        }
     }
 }
