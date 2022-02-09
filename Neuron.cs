@@ -14,7 +14,7 @@ namespace NeuralNetworks
         {
             NeuronType = type;
             Weights = new List<double>();
-            
+
             for (int i = 0; i < inputCount; i++)
             {
                 Weights.Add(1);
@@ -36,6 +36,15 @@ namespace NeuralNetworks
         private double Sigmoid(double x)
         {
             return 1.0 / (1.0 + Math.Pow(Math.E, -x));
+        }
+
+        public void SetWeight(params double[] weights)
+        {
+            // TODO: удалить после добавления возможности обучения сети.
+            for (int i = 0; i < weights.Length; i++)
+            {
+                Weights[i] = weights[i];
+            }
         }
 
         public override string ToString()

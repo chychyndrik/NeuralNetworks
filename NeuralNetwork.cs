@@ -30,7 +30,7 @@ namespace NeuralNetworks
             }
             else
             {
-                
+                return Layers.Last().Neurons.OrderByDescending(n => n.Output).First();
             }
         }
 
